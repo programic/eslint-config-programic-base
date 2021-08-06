@@ -30,6 +30,9 @@ module.exports = {
       next: ['if', 'for', 'function', 'switch', 'do', 'while', 'try'],
     }],
     'no-restricted-syntax': 'off',
+    'no-param-reassign': ['error', {
+      props: false,
+    }],
     'lines-between-class-members': ['error', 'always', {
       exceptAfterSingleLine: true,
     }],
